@@ -1,10 +1,11 @@
-from scripts.load_data import load_data
-from scripts.sales_trends import plot_monthly_sales
-from scripts.top_products import get_top_products
-from scripts.purchase_behavior import average_products_per_transaction
-from scripts.customer_segments import get_profitable_customers
-from scripts.recommendations import generate_recommendations
-from scripts.generate_report import generate_pdf_report
+import sys
+from Scripts.load_data import load_data
+from Scripts.sales_trends import plot_monthly_sales
+from Scripts.top_products import get_top_products
+from Scripts.purchase_behavior import average_products_per_transaction
+from Scripts.customer_segments import get_profitable_customers
+from Scripts.recommendations import generate_recommendations
+from Scripts.generate_report import generate_pdf_report
 
 def main():
     df = load_data()

@@ -16,9 +16,9 @@ def save_plot_as_image(plot_func, df, filename, **kwargs):
     return path
 
 def generate_pdf_report(df, recommendations):
-    from scripts.sales_trends import plot_monthly_sales
-    from scripts.top_products import get_top_products
-    from scripts.customer_segments import get_profitable_customers
+    from Scripts.sales_trends import plot_monthly_sales
+    from Scripts.top_products import get_top_products
+    from Scripts.customer_segments import get_profitable_customers
 
     pdf_path = os.path.join(report_dir, "final_report.pdf")
     doc = SimpleDocTemplate(pdf_path, pagesize=A4)
