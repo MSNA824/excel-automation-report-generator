@@ -1,11 +1,11 @@
 import sys
-from Scripts.load_data import load_data
-from Scripts.sales_trends import plot_monthly_sales
-from Scripts.top_products import get_top_products
-from Scripts.purchase_behavior import average_products_per_transaction
-from Scripts.customer_segments import get_profitable_customers
-from Scripts.recommendations import generate_recommendations
-from Scripts.generate_report import generate_pdf_report
+from load_data import load_data
+from sales_trends import plot_monthly_sales
+from top_products import get_top_products
+from purchase_behavior import average_products_per_transaction
+from customer_segments import get_profitable_customers
+from recommendations import generate_recommendations
+from generate_report import generate_pdf_report
 
 def main():
     df = load_data()
@@ -30,4 +30,6 @@ def main():
     generate_pdf_report(df, generate_recommendations(df))
 
 if __name__ == "__main__":
-    main()
+    #main()
+    df=load_data()
+    print(df.head())
