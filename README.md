@@ -26,7 +26,7 @@ A Python automation script that processes raw Excel data, formats it, summarizes
 - Weekly sales reporting
 - Inventory tracking
 - Employee productivity summaries
-test2
+  
 
 ## 🔧 Setup
 1. Clone the repo:
