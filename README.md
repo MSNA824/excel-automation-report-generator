@@ -58,6 +58,8 @@ At the conclusion of this project, a comprehensive report will be generated and 
 ## 📎 License
 
 This dataset was originally made available on [Kaggle](https://www.kaggle.com/datasets) for educational and research purposes.
+path to Data:
+https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business
 
 ---
 
